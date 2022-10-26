@@ -22,9 +22,9 @@ public class CalculatorController {
 		this.theModel = theModel;
 		
 		// Configure the View component so that when 
-        // its Calculate button is clicked, then it must
-        // execute the actionPerformed method in the 
-        // CalculateListener class.
+		// its Calculate button is clicked, then it must
+		// execute the actionPerformed method in the 
+		// CalculateListener class.
 		
 		this.theView.addCalculateListener(new CalculateListener());
                 this.theView.addProductListener(new ProductListener());
